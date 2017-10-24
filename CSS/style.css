@@ -1,0 +1,58 @@
+/*
+Colors:
+Dark Grey: #606060
+Near-white: #FFFEF5
+Yellow: #EFEC35
+Teal Blue: #60C0C0
+*/
+
+body {
+  background-color: #606060;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #F8F8F1;
+}
+
+h1 {
+  font-family: 'Lobster', cursive;
+  font-size: 5em;
+  margin-bottom: 30px;
+}
+
+#pickX, .X {
+  color: #60C0C0;
+}
+
+#pickO, .O {
+  color: #EFEC35;
+}
+
+.game {
+  width: 70%;
+  max-width: 450px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.box {
+  font-size: 24px;
+  padding: 35px;
+  min-height: 115px;
+}
+
+#one, #four, #seven {
+  border-left: 4px solid #343434;
+  border-right: 4px solid #343434;
+}
+
+#three, #four, #five {
+  border-top: 4px solid #343434;
+  border-bottom: 4px solid #343434;
+}
+
+a.O:visited {
+  color: #EFEC35;
+}
+
+a.X:visited {
+  color: #60C0C0;
+}
